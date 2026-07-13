@@ -1,6 +1,6 @@
 # FleetOps Console
 
-A MERN + TypeScript operations console for tracking assets through a status lifecycle — built as a full case study, not a tutorial clone. Scoped and modeled from a discovery phase before any code was written, with the design artifacts (sitemap, wireframes, design system) checked in alongside the code that implements them.
+A MERN + TypeScript operations console for tracking assets through a status lifecycle that I built based off the system used at my current job. Scoped and modeled from a discovery phase before any code was written, with the design artifacts (sitemap, wireframes, design system) checked in alongside the code that implements them.
 
 **Stack:** React 18 + TypeScript + Vite · Node + Express + TypeScript · MongoDB/Mongoose · JWT auth with rotating refresh tokens · Docker Compose · GitHub Actions CI
 
