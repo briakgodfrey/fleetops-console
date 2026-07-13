@@ -1,0 +1,33 @@
+:root {
+  /* Color — see docs/04-design-system.md */
+  --bg-base: #0b1d26;
+  --bg-panel: #152a38;
+  --bg-panel-raised: #1f3a4d;
+  --text-primary: #e8edf0;
+  --text-muted: #8fa3ad;
+  --accent-signal: #f2a93b;
+  --accent-critical: #e4572e;
+  --accent-success: #4fa8a0;
+  --border-hairline: #24404f;
+
+  /* Type */
+  --font-display: "Barlow Condensed", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
